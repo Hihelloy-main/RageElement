@@ -1,0 +1,123 @@
+Rage:
+  Color: "#DC143C"
+  Outrage:
+    Enabled: true
+    Cooldown: 8000
+    Damage: 5.0
+    Distance: 7
+    ExplosionPower: 2.0
+    KnockbackPower: 2.0
+    ParticleCount: 20
+  Berserk:
+    Enabled: true
+    HealthThreshold: 0.5
+    SpeedMultiplier: 2.0
+    DamageMultiplier: 1.5
+    JumpMultiplier: 0.5
+    ParticleCount: 20
+    Cooldown: 5000
+  FuryHook:
+    Cooldown: 5000              # milliseconds before reuse
+    Damage: 6.0                 # damage value
+    Range: 25                   # how far the beam can travel
+    HomingStrength: 1       # new value – controls how strongly it curves toward a target
+  BerserkerTackle:
+    Enabled: true
+    Cooldown: 12000
+    Distance: 20
+    Speed: 2.0
+    HitDamage: 4.0
+    MissDamage: 2.0
+    StunDuration: 1000
+    ParticleCount: 20
+  FuriousRoar:
+    Enabled: true
+    Cooldown: 15000
+    Damage: 3.0
+    Range: 15
+    ExpansionSpeed: 0.5
+  BoxersGambit:
+    Enabled: true
+    Cooldown: 20000
+    Range: 6
+    SpeedDuration: 400
+    SpeedAmplifier: 2
+    SlownessDuration: 200
+    SlownessAmplifier: 1
+  WildSwipe:
+    Enabled: true
+    Cooldown: 6000
+    Damage: 1.0
+    Range: 5
+    SwipeCount: 3
+  DespiseTheWeak:
+    Enabled: true
+    Cooldown: 3000
+    Damage: 3.0
+    BacklashDamage: 4.0
+    HealthThreshold: 6.0
+    ParticleCount: 20
+  Flex:
+    Enabled: true
+    Cooldown: 30000
+    Duration: 2000
+    StrengthDuration: 200
+    StrengthAmplifier: 2
+  ChaoticStomp:
+    Enabled: true
+    Cooldown: 25000
+    Radius: 15
+    PillarHeight: 3
+    PillarCount: 20
+  FlyingElbow:
+    Enabled: true
+    Cooldown: 18000
+    LaunchDamage: 1.0
+    LandDamage: 4.0
+    LaunchPower: 1.5
+    DivePower: 2.0
+    ParticleCount: 20
+  RKO:
+    Cooldown: 1500
+    ChannelTime: 2000
+    Damage: 2.0
+    LaunchHeight: 5.0
+    Radius: 5.0
+ExtraAbilities:
+      FitzTheBitz:
+        AngerEmbodied:
+          Enabled: true
+          Description: "Summons a line of particles the length of each arm in front of your arms. Crouch to toggle move replacement mode, Click to boost forward."
+          Duration: 30000
+          ClickCooldown: 2000
+          CrouchCooldown: 30000
+          BoostDistance: 3.0
+          ArmParticleLength: 3
+          HatefulJab:
+            Enabled: true
+            Description: "Adds 2 extra blocks of reach on your punch. 10% chance to gain stacking Strength on hit."
+            Reach: 2
+            Damage: 4.0
+            StrengthChance: 10
+            StrengthDuration: 10000
+            StrengthMaxLevel: 9
+            Cooldown: 500
+            KnockbackPower: 0.5
+          FootBoost:
+            Enabled: true
+            Description: "Boosts you forward 3 blocks and temporarily swaps the lines of particles to your feet."
+            BoostDistance: 3.0
+            ParticleDuration: 1000
+            FootParticleLength: 3
+            Cooldown: 1000
+          FlurryKick:
+            Enabled: true
+            Description: "Stand still for 3 seconds holding crouch while particles swirl up in a mini tornado, then release to create a shockwave."
+            ChargeTime: 3000
+            Range: 10
+            Damage: 2.0
+            Cooldown: 8000
+            KnockbackPower: 0.8
+            KnockbackHeight: 0.3
+            MaxTornadoHeight: 3.0
+
