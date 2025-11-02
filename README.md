@@ -51,7 +51,7 @@ User creates a small explosion below their feet, which deals 1 damage to both th
 ## Building
 
 ### Requirements
-- Java 21 or higher
+- Java 17 or higher
 - Maven 3.6 or higher
 
 ### Build Steps
