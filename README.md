@@ -1,6 +1,6 @@
 # RageElement - Custom ProjectKorra Element
 
-A custom Rage element plugin for ProjectKorra 1.12.0 on Spigot 1.20.4.
+A custom Rage element plugin for ProjectKorra 1.12.0 on Spigot 1.21.4.
 
 ## Abilities
 
@@ -51,7 +51,7 @@ User creates a small explosion below their feet, which deals 1 damage to both th
 ## Building
 
 ### Requirements
-- Java 17 or higher
+- Java 21 or higher
 - Maven 3.6 or higher
 
 ### Build Steps
@@ -78,7 +78,7 @@ All abilities can be configured in `config.yml`. You can adjust:
 
 ## Dependencies
 
-- Spigot 1.20.4
+- Spigot 1.21.4
 - ProjectKorra 1.12.0
 
 ## Version
