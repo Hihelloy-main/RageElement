@@ -6,10 +6,6 @@ import com.projectkorra.projectkorra.Element.ElementType;
 import com.projectkorra.projectkorra.ProjectKorra;
 import com.rageelement.configuration.ConfigManager;
 import net.md_5.bungee.api.ChatColor;
-import org.eclipse.aether.util.listener.ChainedTransferListener;
-import org.jetbrains.annotations.Nullable;
-
-import java.awt.*;
 
 
 public class Elements {
